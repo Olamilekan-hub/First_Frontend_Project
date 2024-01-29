@@ -136,24 +136,38 @@ body {
   position: absolute;
   top: 20%;
   left: 10%;
-
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: start;
 }
 
 .headline {
+  margin-top: 50px;
   color: #c5afc7;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
+}
+
+.headline2 {
+  margin-top: 50px;
+  color: #c5afc7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
 }
 
 div h2 p {
   margin: 0;
   padding: o;
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 1.5rem;
   text-shadow: 0px 0px 5px #c5afc7;
 }
 
 .btnn {
+  position: absolute;
+  top: 65%;
+  left: 40%;
   background-color: black;
   color: #c5afc7;
   font-weight: bold;
