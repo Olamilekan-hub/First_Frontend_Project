@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTimeout(function () {
                     header.style.transform = "translateY(0)"; // Slide down
                 }, 200);
-            }
+            } 
         }
   
         lastScrollTop = scrollTop;
